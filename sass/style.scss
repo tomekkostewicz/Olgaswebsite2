@@ -338,6 +338,48 @@ header {
 }
 //--------------
 
+//social media
+
+.social-media {
+    
+    position: fixed;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1000;
+  
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .instagram {
+    background: pink;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .spotify {
+    background: green;
+    color: white;
+  }
+}
+
 //contact
 .contact {
   position: relative;
@@ -379,17 +421,8 @@ header {
       letter-spacing: 2px;
     }
 
-    .social-media {
-      font-size: 26px;
-      a {
-        padding: 10px;
-        color: $white-color;
-      }
-
-      a:hover {
-        color: $grey-color;
-      }
-    }
+    
+    
   }
 }
 //-------------

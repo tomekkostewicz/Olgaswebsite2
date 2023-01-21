@@ -367,6 +367,39 @@ header .fa-chevron-down {
   height: 160px;
 }
 
+.social-media {
+  position: fixed;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+.social-media .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.social-media .icon-bar a:hover {
+  background-color: #000;
+}
+.social-media .instagram {
+  background: pink;
+  color: white;
+}
+.social-media .youtube {
+  background: #bb0000;
+  color: white;
+}
+.social-media .spotify {
+  background: green;
+  color: white;
+}
+
 .contact {
   position: relative;
   background-image: url(/img/yang-6104939_1920.jpg);
@@ -402,16 +435,6 @@ header .fa-chevron-down {
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-.contact .contact-item .social-media {
-  font-size: 26px;
-}
-.contact .contact-item .social-media a {
-  padding: 10px;
-  color: #fff;
-}
-.contact .contact-item .social-media a:hover {
-  color: #ddd;
 }
 
 @media (min-width: 375px) {
