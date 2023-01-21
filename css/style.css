@@ -372,8 +372,6 @@ header .fa-chevron-down {
   flex-direction: column;
   top: 50%;
   transform: translateY(-50%);
-  transform: translateY(-50%);
-  transform: translateY(-50%);
   z-index: 1000;
 }
 .social-media .icon-bar a {
@@ -383,12 +381,19 @@ header .fa-chevron-down {
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+  transition: background-color 0.5s;
 }
-.social-media .icon-bar a:hover {
-  background-color: #000;
+.social-media .instagram:hover {
+  background-color: rgb(179, 113, 123);
+}
+.social-media .spotify:hover {
+  background-color: #1DB954;
+}
+.social-media .youtube:hover {
+  background-color: #FF0000;
 }
 .social-media .instagram {
-  background: pink;
+  background: #fb3958;
   color: white;
 }
 .social-media .youtube {
